@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minesweeper</h1>
+    <div id="game-info">
+        <span>Time: <span id="timer">0</span>s</span>
+        <span>Mines Left: <span id="mines-count">10</span></span>
+        <span>Best Time: <span id="best-time">---</span>s</span>
+        <button onclick="startGame()">Restart</button>
+    </div>
+    <div id="scoreboard">
+        <h3>Scoreboard</h3>
+        <ol id="score-list"></ol>
+    </div>
+    <div id="board"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
